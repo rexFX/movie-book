@@ -71,16 +71,12 @@ const Dashboard = () => {
 						<LoadingSpinner fill="white" className="scale-150" />
 					</div>
 				) : (
-					<div className="w-[90%] md:w-[60%] lg:w-[30%] lg:max-w-[30%] flex flex-col justify-center items-center">
+					<div className="w-[90%] md:w-[60%] lg:w-[40%] lg:h-[50%] flex flex-col justify-center items-center">
 						{movieList.length > 0 ? (
 							<Splide
 								options={{
+									height: "100%",
 									width: "100%",
-									mediaQuery: {
-										lg: {
-											scale: 1.25,
-										},
-									},
 								}}
 							>
 								{movieList.map((movie) => (
