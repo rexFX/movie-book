@@ -1,6 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
+import Login from "./components/login.jsx";
+import Dashboard from "./components/dashboard.jsx";
+import Details from "./components/details.jsx";
 import "./index.css";
 
 import { GoogleOAuthProvider } from "@react-oauth/google";
@@ -10,16 +13,20 @@ const router = createBrowserRouter([
 	{
 		path: "/",
 		element: <App />,
-		// children: [
-		//   {
-		//     path: "/dashboard",
-		//     element: <Dashboard />,
-		//   },
-		//   {
-		//     path: "/details",
-		//     element: <Details />,
-		//   }
-		// ]
+		children: [
+			{
+				index: "login",
+				element: <Login />,
+			},
+			{
+				path: "dashboard",
+				element: <Dashboard />,
+			},
+			{
+				path: "details/:id",
+				element: <Details />,
+			},
+		],
 	},
 ]);
 

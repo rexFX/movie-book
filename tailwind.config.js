@@ -14,7 +14,6 @@ export default {
     },
     backgroundImage: {
       'login': "url('./src/assets/loginScreen.jpg')",
-      'login2': "url('./src/assets/loginScreen2.jpg')",
     }
   },
   plugins: [],
