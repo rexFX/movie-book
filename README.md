@@ -19,8 +19,8 @@ A ReactJS frontend for listing movies and their details using TVmaze API
 ### Tablet Screen:
 
 ![tLogin](./imgs/tLogin.png)
-![tDashboard](./imgs/tDashboard.png)
-![tDetails](./imgs/tDetails.png)
+![tDashboard](./imgs/tDash.png)
+![tDetails](./imgs/tDet.png)
 ![tForm](./imgs/tForm.png)
 ![tSuccess](./imgs/tSuccess.png)
 
