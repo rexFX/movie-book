@@ -13,7 +13,7 @@ export default {
       'lato': ['Lato', 'sans-serif'],
     },
     backgroundImage: {
-      'login': "url('./src/assets/loginScreen.jpg')",
+      'login': "url('/src/assets/loginScreen.jpg')",
     }
   },
   plugins: [],
